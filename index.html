@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="objectives.css">
+</head>
+<body>
+
+<h1>My Objectives</h1>
+<ol id="list">
+  <li class="objective__item" onclick="deleteItem(event)">Discuss important women</li>
+  <li class="objective__item" onclick="deleteItem(event)">Speak in Spanish</li>
+</ol>
+
+<h3>Add new objectives:</h3>
+<input type="text" id="objective-input" placeholder="We will...">
+<button type="button" id="objective-sumbit" onclick="submitObjective()">Add</button>
+
+<script src="objectives.js">
+</script>
+</body>
+</html>
